@@ -51,46 +51,7 @@ header form {
     margin-left: -30px;
     margin-top: -1px;
 }
-.container::after {
-	content: '';
-	display: block;
-	clear: both;
-}
-.menu-mobile {
-	float: right;
-	display: none;
-	padding:18px;
-}
-.menu-mobile:hover{
-	cursor: pointer;
-}
-#check {
-	display: none;
-}
-.sidebar {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: -300px;
-	width: 300px;
-	background-color: rgba(60, 199, 251, 0.9);
-	transition: 0.3s;
-	z-index: 9999;
-}
-.sidebar ul li a {
-	color: white;
-}
-.sidebar ul li {
-	padding: 24px;
-	transition: 0.3s;
-	transition-property:background-color;
-}
-.sidebar ul li:hover {
-	background-color:#FB783C;
-}
-#check:checked ~ .sidebar {
-	left:0;
-}
+
 .tulisan h2 {
     color: white;
     text-align: center;
@@ -106,10 +67,4 @@ header form {
 
 
 @media (max-width: 768px){
-	.menu-mobile {
-		display: block;
-	}
-	header ul {
-		display: none;
-    }
 }
