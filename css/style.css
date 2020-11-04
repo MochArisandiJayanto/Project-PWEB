@@ -64,7 +64,48 @@ header form {
     text-align: center;
     font-size: 25px;
 }
+.menu {
+    height: 70px;
+}
+.menu ul {
+    text-align: center;
+    padding-top: 30%;
+}
+.menu ul li {
+    margin: 20px;
+    display: inline-block;
+}
+.menu ul li a {
+    transition: 0.3s;
+}
+.menu ul li a:hover {
+    color:#FF5733;
+}
+a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.banner {
+    background-color: #422F2F;
+    margin-top: 31%;
+    margin-bottom: auto;
+}
+section {
+	padding:50px 0;
+}
 
+footer {
+	background-color: #333;
+	padding: 20px;
+	text-align: center;
+}
+footer small {
+	color: #fff;
+}
 
 @media (max-width: 768px){
 }
