@@ -30,6 +30,7 @@ header form {
     padding:8px 15px;
     background:rgba(255, 255, 255, 0.2);
     border:0px solid #dbdbdb;
+    border-radius: 20px;
 }
 .button {
     padding:6px 15px;
@@ -37,6 +38,7 @@ header form {
     border:2px solid #53bd84;
     background-color:#53bd84;
     color:#fafafa;
+    border-radius: 10px;
 }
 .button:hover  {
     background-color:#FF5733;
@@ -46,10 +48,10 @@ header form {
 	margin:0 auto;
 }
 .container img {
-    width: 80px;
-    height: 80px;
-    margin-left: -30px;
-    margin-top: -1px;
+    width: 60px;
+    height: 40px;
+    margin-left: -40px;
+    margin-top: 14px;
 }
 
 .tulisan h2 {
