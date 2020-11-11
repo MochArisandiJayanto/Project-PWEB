@@ -97,7 +97,45 @@ a {
 section {
 	padding:50px 0;
 }
+.isi1 {
+    background-color: #A0604C;
+    opacity: 83%;
+    margin-bottom: 100px;
+}
+.isi1 h3 {
+    position: absolute;
+    line-height: 57px;
+    color: #000000;
+    left: 700px;
+    font-weight: bold;
+    font-size: 48px;
+}
+section h3::after {
+	content: '';
+	display: block;
+    position: absolute;
+	bottom: -1px;
+	width:1260px;
+	height:4px;
+    background-color:red;
+	left: calc(50% - 670px);
+}
+section p {
+    position: absolute;
+    font-size: 36px;
+    color: #FFFBFB;
+    left: 700px;
+    line-height: 43px;
+    margin-top: 150px;
+}
+.isi1 img {
+    height: 423px;
+    width: 605px;
+    left: -2038px;
+    top: 1163px;
+    border-radius: 0px;
 
+}
 footer {
 	background-color: #333;
 	padding: 20px;
