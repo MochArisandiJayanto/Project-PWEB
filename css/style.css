@@ -155,7 +155,7 @@ section p:hover {
     margin-bottom: 10px;
     margin-top: -70px;
 }
-section h4 {
+.isi2 h4 {
     position: absolute;
     line-height: 57px;
     color: #000000;
@@ -164,10 +164,10 @@ section h4 {
     font-size: 28px;
     transition: 0.3s;
 }
-section h4:hover {
+.isi2 h4:hover {
     color: cyan;
 }
-section h4::after {
+.isi2 h4::after {
 	content: '';
 	display: block;
     position: absolute;
