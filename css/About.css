@@ -1,0 +1,102 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+}
+header {
+    height:70px;
+    width: 100%;
+    background-color: #50829E;
+}
+header h1 {
+	display: inline-block;
+	padding:13px 23px;
+	float: left;
+	text-transform: uppercase;
+}
+header h1 a {
+	transition: 0.3s;
+}
+header h1 a:hover {
+	color:#FF5733;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	padding:24px;
+	display: inline-block;
+}
+header ul li a {
+	transition: 0.3s;
+}
+header ul li a:hover {
+	color:#FF5733;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	width:90%;
+	margin:0 auto;
+}
+.container img {
+    width: 70px;
+    height: 50px;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+.con1 img {
+    width: 100%;
+    height: auto;
+    Top :72px;
+    Left: auto;
+}
+.con2 img {
+    width: 100%;
+    height: auto;
+    Left: auto;
+    margin-top: -450px;
+}
+.tulisan h2 {
+    color: #D04FD2;
+    text-align: center;
+    margin-top: -75%;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.tulisan p {
+    color: #7E5ED8;
+    text-align: center;
+    font-size: 30px;
+}
+.segita img {
+    margin-left: 700px;
+    margin-top: 300px;
+}
+.petir img {
+    margin-left: 490px;
+    margin-top: -1000px;
+}
+.isi h3 {
+    color: white;
+    text-align: center;
+    margin-top: -25%;
+    width: 570px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+footer {
+	background-color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 1300px;
+}
+footer small {
+	color: #fff;
+}
