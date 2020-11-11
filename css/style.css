@@ -97,12 +97,12 @@ a {
 section {
 	padding:20px 0;
 }
-.isi1 {
+.satu {
     background-color: #A0604C;
     opacity: 83%;
     margin-bottom: 100px;
 }
-section h3 {
+.satu h3 {
     position: absolute;
     line-height: 57px;
     color: #000000;
@@ -111,10 +111,10 @@ section h3 {
     font-size: 28px;
     transition: 0.3s;
 }
-section h3:hover {
+.satu h3:hover {
     color: cyan;
 }
-section h3::after {
+.satu h3::after {
 	content: '';
 	display: block;
     position: absolute;
@@ -124,7 +124,7 @@ section h3::after {
     background-color:red;
 	left: calc(50% - 475px);
 }
-section p {
+.satu p {
     position: absolute;
     font-size: 26px;
     color: #FFFBFB;
@@ -133,10 +133,10 @@ section p {
     margin-top: 150px;
     transition: 00.3s;
 }
-section p:hover {
+.satu p:hover {
     color: cyan;
 }
-.isi1 img {
+.satu img {
     height: 323px;
     width: 505px;
     left: -2038px;
@@ -144,18 +144,17 @@ section p:hover {
     border-radius: 0px;
     transition: 0.3s;
 }
-
-.isi1 a:hover img {
+.satu a:hover img {
     transform: scale(1.1,1.1);
     transition: 0.3s;
 }
-.isi2 {
+.dua {
     background-color: rgba(160, 96, 76, 0.53);
     opacity: 83%;
     margin-bottom: 10px;
     margin-top: -70px;
 }
-.isi2 h4 {
+.dua h4 {
     position: absolute;
     line-height: 57px;
     color: #000000;
@@ -164,10 +163,10 @@ section p:hover {
     font-size: 28px;
     transition: 0.3s;
 }
-.isi2 h4:hover {
+.dua h4:hover {
     color: cyan;
 }
-.isi2 h4::after {
+.dua h4::after {
 	content: '';
 	display: block;
     position: absolute;
@@ -177,7 +176,7 @@ section p:hover {
     background-color:red;
 	left: calc(50% - 475px);
 }
-.isi2 p {
+.dua p {
     position: absolute;
     font-size: 26px;
     color: #FFFBFB;
@@ -186,10 +185,10 @@ section p:hover {
     margin-top: 100px;
     transition: 00.3s;
 }
-.isi2 p:hover {
+.dua p:hover {
     color: cyan;
 }
-.isi2 img {
+.dua img {
     height: 323px;
     width: 505px;
     left: -2038px;
@@ -198,7 +197,7 @@ section p:hover {
     transition: 0.3s;
     transform: rotate(-180deg);
 }
-.isi2 a:hover img {
+.dua a:hover img {
     transform: scale(1.1,1.1) rotate(-180deg);
     transition: 0.3s;
 }
