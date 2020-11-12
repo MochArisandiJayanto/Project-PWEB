@@ -14,6 +14,7 @@ body img {
 }
 header {
     height:70px;
+    width: 100%;
     background-color:#50829E;
 }
 
@@ -24,68 +25,92 @@ header {
     margin-top: 14px;
 }
 
-.top{
-    margin-top: -6.5%;
-    padding-top: 1.2cm;
+header ul {
+	float: right;
 }
-.top ul{
-    width: 500px;
-    float: right;
+header ul li {
+	padding:24px;
+	display: inline-block;
 }
-
-.top li{
-    display: inline;
-    margin: 5%;
-    margin-top: 1cm;
-    
+header ul li a {
+	transition: 0.3s;
 }
-.top li a{
-    font-weight: 100;
-    font-size: 25px;
-    color:white;
-    text-decoration: none;
+header ul li a:hover {
+	color:#FF5733;
 }
-
-.top li a:hover{
-    color: red;
-    font-weight: bold;
+a {
+	text-decoration: none;
 }
 
 .title {
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
-.title ul{
-    text-align: center;
+.ig h2 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20%;
 }
 
-.title li{
-    display: inline-table
-    margin: 5%;
-    margin-top: 1cm;
-    
+.mail h2 {
+    margin-top: 50px;
+    float: right;
+    margin-right: 17%;
 }
-.top li h2{
-    font-weight: 100;
-    font-size: 25px;
-    color:white;
-    text-decoration: none;
+
+.fb h2 {
+    margin-top: 200px;
+    margin-left: 20%;
 }
-.title img {
-    width: 60px;
-    height: 40px;
-    margin-left: 40px;
-    margin-top: 14px;
+
+.telpon h2 {
+    margin-top: -30px;
+    float: right;
+    margin-right: 18%;
+}
+
+.ig img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 40px;
+}
+
+.mail img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 40px;
+}
+
+.fb img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -40px;
+}
+
+.telpon img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: -40px;
 }
 
 footer {
-	background-color: #141517;
-	padding: 10px;
+	background-color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
-    font-size: 25px;
-    width: 100%;
     position: absolute;
-    top: 563px;
+    width: 100%;
+    top: 580px;
 }
 footer small {
 	color: #fff;
