@@ -1,4 +1,4 @@
-const txtElement = ['DATANG', 'DI HIDRO WEB!'];
+const txtElement = ['DATANG DI HIDRO WEB!'];
 let count = 0;
 let txtIndex = 0;
 let currentTxt = '';
