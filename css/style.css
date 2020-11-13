@@ -66,6 +66,9 @@ header form {
     text-align: center;
     font-size: 25px;
 }
+.tulisan span {
+    color: white;
+}
 .menu {
     height: 70px;
 }

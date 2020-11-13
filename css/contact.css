@@ -53,30 +53,43 @@ a {
     margin-top: 50px;
     margin-left: 20%;
 }
+.ig h2 a:hover {
+    color:white; 
+}
 
 .mail h2 {
     margin-top: 50px;
     float: right;
     margin-right: 17%;
 }
-
+.mail h2 a:hover {
+    color:white; 
+}
 .fb h2 {
     margin-top: 200px;
     margin-left: 20%;
 }
-
+.fb h2 a:hover {
+    color:white; 
+}
 .telpon h2 {
     margin-top: -30px;
     float: right;
     margin-right: 18%;
 }
-
+.telpon h2 a:hover {
+    color:white;
+}
 .ig img {
     width: 50px;
     height: 50px;
     position: absolute;
     margin-left: 40%;
     margin-top: 40px;
+}
+.ig img:hover {
+    transform: scale(1.2,1.2);
+    transition: 0.3s;
 }
 
 .mail img {
@@ -86,6 +99,10 @@ a {
     margin-left: 55%;
     margin-top: 40px;
 }
+.mail img:hover {
+    transform: scale(1.2,1.2);
+    transition: 0.3s;
+}
 
 .fb img {
     width: 50px;
@@ -93,6 +110,10 @@ a {
     position: absolute;
     margin-left: 40%;
     margin-top: -40px;
+}
+.fb img:hover {
+    transform: scale(1.2,1.2);
+    transition: 0.3s;
 }
 
 .telpon img {
@@ -102,7 +123,10 @@ a {
     margin-left: 55%;
     margin-top: -40px;
 }
-
+.telpon img:hover {
+    transform: scale(1.2,1.2);
+    transition: 0.3s;
+}
 footer {
 	background-color: #333;
     padding-top: 20px;
@@ -110,7 +134,7 @@ footer {
     text-align: center;
     position: absolute;
     width: 100%;
-    top: 580px;
+    top: 100%;
 }
 footer small {
 	color: #fff;
