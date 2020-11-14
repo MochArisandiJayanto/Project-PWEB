@@ -9,18 +9,6 @@ header {
     width: 100%;
     background-color: #50829E;
 }
-header h1 {
-	display: inline-block;
-	padding:13px 23px;
-	float: left;
-	text-transform: uppercase;
-}
-header h1 a {
-	transition: 0.3s;
-}
-header h1 a:hover {
-	color:#FF5733;
-}
 header ul {
 	float: right;
 }
@@ -83,14 +71,145 @@ a {
     margin-top: 20px;
 }
 section {
-    padding:50px 0;
+    height: 350px;
+    padding:50px;
     background: #142C2F;
 }
 .banner p {
     color: white;
     margin-left: 20px;
-    width: 800px;
+    width: 700px;
     line-height: 30px;
+}
+
+.banner:after {
+	content: '';
+	display: block;
+    position: absolute;
+    margin-left: 59%;
+    margin-top: -450px;
+	width:4px;
+    height:800px;
+    background-color:rgb(0, 0, 0);
+}
+
+.satu {
+    opacity: 100%;
+    margin-bottom: 50px;
+}
+
+.satu img {
+    height: 170px;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -450px;
+}
+
+.satu a:hover img {
+    transform: scale(1.1,1.1);
+    transition: 0.3s;
+}
+
+.satu h3 {
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -270px;
+    width: 350px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.satu h3:hover {
+    color: cyan;
+}
+.satu h3::after {
+	content: '';
+	display: block;
+    position: absolute;
+	width:320px;
+    height:4px;
+    margin-top: 20px;
+    background-color:rgb(0, 0, 0);
+}
+
+.dua img {
+    height: 170px;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -220px;
+}
+
+.dua a:hover img {
+    transform: scale(1.1,1.1);
+    transition: 0.3s;
+}
+
+.dua h3 {
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -40px;
+    width: 350px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.dua h3:hover {
+    color: cyan;
+}
+.dua h3::after {
+	content: '';
+	display: block;
+    position: absolute;
+	width:320px;
+    height:4px;
+    margin-top: 20px;
+    background-color:rgb(0, 0, 0);
+}
+
+.tiga img {
+    height: 170px;
+    width: 280px;
+    border-radius: 10px;
+    transition: 0.3s;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 90px;
+}
+
+.tiga a:hover img {
+    transform: scale(1.1,1.1);
+    transition: 0.3s;
+}
+
+.tiga h3 {
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 270px;
+    width: 350px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.tiga h3:hover {
+    color: cyan;
+}
+.tiga h3::after {
+	content: '';
+	display: block;
+    position: absolute;
+	width:320px;
+    height:4px;
+    margin-top: 20px;
+    background-color:rgb(0, 0, 0);
 }
 
 footer {

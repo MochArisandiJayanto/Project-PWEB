@@ -42,10 +42,10 @@ header form {
 	margin:0 auto;
 }
 .container img {
-    width: 60px;
-    height: 40px;
+    width: 70px;
+    height: 50px;
     margin-left: -40px;
-    margin-top: 14px;
+    margin-top: 10px;
 }
 
 .tulisan h2 {
@@ -105,7 +105,7 @@ section {
     position: absolute;
     line-height: 57px;
     color: #000000;
-    left: 580px;
+    left: 600px;
     font-weight: bold;
     font-size: 28px;
     transition: 0.3s;
@@ -153,19 +153,19 @@ section {
     margin-bottom: 10px;
     margin-top: -70px;
 }
-.dua h4 {
+.dua h3 {
     position: absolute;
     line-height: 57px;
     color: #000000;
-    left: 800px;
+    left: 600px;
     font-weight: bold;
     font-size: 28px;
     transition: 0.3s;
 }
-.dua h4:hover {
+.dua h3:hover {
     color: cyan;
 }
-.dua h4::after {
+.dua h3::after {
 	content: '';
 	display: block;
     position: absolute;
