@@ -210,9 +210,9 @@ footer small {
 }
 
 @media screen and (max-width: 768px){
-    header{
-        position: inherit;
-    }
+    header {
+        position:inherit;
+	}
     .search {
         margin-top: 15px auto;
     }
@@ -256,7 +256,7 @@ footer small {
         margin-top: -2%;
     }
     .dua h4::after {
-        width: 170%;
+        width: 100%;
         left: 0%;
     }
     .dua p {
