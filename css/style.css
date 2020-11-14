@@ -225,13 +225,13 @@ footer small {
     .satu img {
         height: 50%;
         width: 50%;
-        margin-top: -20px;
+        margin-top: -2%;
     }
     .satu h3 {
         position: absolute;
         left: 50%;
         font-size:50% ;
-        margin-top: -20px;
+        margin-top: -2%;
     }
     .satu h3::after {
         width: 100%;
@@ -241,19 +241,19 @@ footer small {
         position: absolute;
         left: 50%;
         font-size: 50%;
-        margin-top: 50px;
-        line-height: 30px;
+        margin-top: 7%;
+        line-height: 300%;
     }
     .dua img {
         height: 50%;
         width: 50%;
-        margin-top: -20px;
+        margin-top: -2%;
     }
     .dua h4 {
         position: absolute;
         left: 50%;
         font-size: 60%;
-        margin-top: -20px;
+        margin-top: -2%;
     }
     .dua h4::after {
         width: 170%;
@@ -263,7 +263,7 @@ footer small {
         position: absolute;
         left: 50%;
         font-size: 50%;
-        margin-top: 50px;
-        line-height: 30px;
+        margin-top: 7%;
+        line-height: 300%;
     }
 }
