@@ -16,12 +16,6 @@ header {
     height:70px;
     background-color:#A0604C;
 }
-header h1 {
-	display: inline-block;
-	padding:13px 23px;
-	float: left;
-	text-transform: uppercase;
-}
 header form {
     float: right;
     padding: 20px;
@@ -213,4 +207,63 @@ footer {
 }
 footer small {
 	color: #fff;
+}
+
+@media screen and (max-width: 768px){
+    header{
+        position: inherit;
+    }
+    .search {
+        margin-top: 15px auto;
+    }
+    a {
+        margin: 20px;
+    }
+    section {
+        padding: 10px 0;
+    }
+    .satu img {
+        height: 50%;
+        width: 50%;
+        margin-top: -20px;
+    }
+    .satu h3 {
+        position: absolute;
+        left: 50%;
+        font-size:50% ;
+        margin-top: -20px;
+    }
+    .satu h3::after {
+        width: 100%;
+        left: 0%;
+    }
+    .satu p {
+        position: absolute;
+        left: 50%;
+        font-size: 50%;
+        margin-top: 50px;
+        line-height: 30px;
+    }
+    .dua img {
+        height: 50%;
+        width: 50%;
+        margin-top: -20px;
+    }
+    .dua h4 {
+        position: absolute;
+        left: 50%;
+        font-size: 60%;
+        margin-top: -20px;
+    }
+    .dua h4::after {
+        width: 170%;
+        left: 0%;
+    }
+    .dua p {
+        position: absolute;
+        left: 50%;
+        font-size: 50%;
+        margin-top: 50px;
+        line-height: 30px;
+    }
 }
