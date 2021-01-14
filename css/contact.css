@@ -26,7 +26,8 @@ header {
 }
 
 header ul {
-	float: right;
+    float: right;
+    margin-right: 50px;
 }
 header ul li {
 	padding:24px;
