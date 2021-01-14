@@ -306,3 +306,102 @@ footer small {
         line-height: 300%;
     }
 }
+
+@media (min-width: 720px) and (max-width: 992px){
+    header {
+        position: absolute;
+        width:100%;
+	}
+	body{
+	    width:100%;
+	}
+    .search {
+        margin-top: 15px auto;
+        left: 50%;
+        width: 80px;
+    }
+    .container img {
+        width: 60px;
+        height: 40px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .menu {
+        height: 70px;
+    }
+    .menu ul {
+        text-align: center;
+        padding-top: 30%;
+    }
+    .menu ul li{
+        margin: 10px;
+        padding: 10px;
+    }
+    a {
+        margin: 10px;
+    }
+    section {
+        padding: 10px 0;
+    }
+    .tulisan h2{
+        font-size: 20px;
+    }
+    .tulisan p{
+        font-size: 15px;
+    }
+    .satu {
+        margin-top: 10px;
+    }
+    .satu img {
+        height: 50%;
+        width: 40%;
+        margin-top: -2%;
+        margin-left: -5%;
+        margin-bottom:5%;
+    }
+    .satu h3 {
+        position: absolute;
+        left: 40%;
+        font-size:70% ;
+        margin-top: 0;
+        line-height: 300%;
+    }
+    .satu h3::after {
+        width: 100%;
+        height:2px;
+        left: -1%;
+    }
+    .satu p {
+        position: absolute;
+        left: 40%;
+        font-size: 60%;
+        margin-top: 10%;
+        line-height: 300%;
+    }
+    .dua img {
+        height: 50%;
+        width: 40%;
+        margin-top: -2%;
+        margin-left: -5%;
+        margin-bottom:5%;
+    }
+    .dua h3 {
+        position: absolute;
+        left: 50%;
+        font-size:70% ;
+        margin-top: 2px;
+        line-height: 200%;
+    }
+    .dua h3::after {
+        width: 100%;
+        height:2px;
+        left: 0%;
+    }
+    .dua p {
+        position: absolute;
+        left: 40%;
+        font-size: 60%;
+        margin-top: 8%;
+        line-height: 300%;
+    }
+}
