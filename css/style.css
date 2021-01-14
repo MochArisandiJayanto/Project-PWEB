@@ -209,29 +209,58 @@ footer small {
 	color: #fff;
 }
 
-@media screen and (max-width: 768px){
+@media (max-width: 720px){
     header {
-        position:inherit;
+        position: inherit;
 	}
     .search {
         margin-top: 15px auto;
+        position: absolute;
+        left: 50%;
+        width: 80px;
+    }
+    .container img {
+        width: 60px;
+        height: 40px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .menu {
+        height: 70px;
+    }
+    .menu ul {
+        text-align: center;
+        padding-top: 30%;
+    }
+    .menu ul li{
+        margin: -5px;
     }
     a {
-        margin: 20px;
+        margin: 10px;
     }
     section {
         padding: 10px 0;
     }
+    .tulisan h2{
+        font-size: 20px;
+    }
+    .tulisan p{
+        font-size: 15px;
+    }
+    .satu {
+        margin-top: 10px;
+    }
     .satu img {
         height: 50%;
         width: 50%;
-        margin-top: -2%;
+        margin-top: -10%;
+        margin-left: -15px;
     }
     .satu h3 {
         position: absolute;
         left: 50%;
-        font-size:50% ;
-        margin-top: -2%;
+        font-size:30% ;
+        margin-top: -10%;
     }
     .satu h3::after {
         width: 100%;
@@ -240,7 +269,7 @@ footer small {
     .satu p {
         position: absolute;
         left: 50%;
-        font-size: 50%;
+        font-size: 30%;
         margin-top: 7%;
         line-height: 300%;
     }
