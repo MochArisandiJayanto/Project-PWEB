@@ -10,32 +10,43 @@
 </head>
 <body>
 	<!--Header-->
-	<header>
-		<div class="container">
-			<a href="index.html"><img src="gambar/logo.png"></a>
-			<ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About.html">About Us</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-    </header>
+	<nav>
+        <div class="logo">
+            <a href="index.html"><img src="gambar/logo.png"></a>
+        </div>
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <div class="toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
 
     <!-- Isi -->
     <div class="title">
         <h1>Tim Customer Help Hidro Web</h1>
-        <p>Pada Hidro Web ini, kami sangat menjunjung tinggi komunikasi dua arah. Untuk itu tujuan adanya tim Customer Help ini untuk membantu permasalahan dan kendala yang anda alami pada dunia pertanian yang akan bertrasnsisi menuju ke arah pertanian modern</p>
-    </div>
+        <div class="desc">
+          <p>Pada Hidro Web ini, kami sangat menjunjung tinggi komunikasi dua arah. Untuk itu tujuan adanya tim Customer Help ini untuk membantu permasalahan dan kendala yang anda alami pada dunia pertanian yang akan bertrasnsisi menuju ke arah pertanian modern</p>
+        </div>
+            </div>
 
-    <div class="tabel1">
-        <img src="gambar/peringatan.png">
-        <h3>LAPORKAN PENYALAHGUNAAN</h3>
-        <p>Kirim Email ke hidroweb@gmail.com untuk melaporkan penyalahgunaan</p>
-    </div>
-
-    <div class="tabel2">
-        <img src="gambar/pena.png">
-        <h3>PERTANYAAN UMUM</h3>
-        <p>Tim kami akan selalu siap untuk membantu kesuksesan anda</p>
+    <div class="row">
+        <div class="col">
+            <img src="gambar/peringatan.png">
+            <h3>LAPORKAN PENYALAHGUNAAN</h3>
+            <p>Kirim Email ke hidroweb@gmail.com untuk melaporkan penyalahgunaan</p>
+        </div>
+        <div class="col">
+            <img src="gambar/pena.png">
+            <h3>PERTANYAAN UMUM</h3>
+            <p>Tim kami akan selalu siap untuk membantu kesuksesan anda</p>
+        </div>
     </div>
 
      <!--Footer-->
@@ -44,6 +55,7 @@
 			<small>Copyright &copy; 2020 - HIDRO WEB!</small>
 		</div>
     </footer>
-    
+
+    <script src="js/toggle.js"></script>
 </body>
 </html>

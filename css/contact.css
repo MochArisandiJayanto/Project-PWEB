@@ -140,3 +140,80 @@ footer {
 footer small {
 	color: #fff;
 }
+
+@media (max-width: 720px){
+    header {
+        position: absolute;
+        width:100%;
+	}
+	body{
+	    width:100%;
+	}
+    .search {
+        margin-top: 15px auto;
+        left: 50%;
+        width: 80px;
+    }
+    .container img {
+        width: 60px;
+        height: 40px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .menu {
+        height: 70px;
+    }
+    .menu ul {
+        text-align: center;
+        padding-top: 30%;
+    }
+    .menu ul li{
+        margin: -5px;
+    }
+    .title {
+        text-align: center;
+        padding-top: 20%;
+        font-size: 80%;
+    }
+    .ig h2 {
+        text-align: left;
+        padding-top: 0%;
+        padding-right: 50%;
+    }
+    .ig img {
+        position: absolute;
+        margin-top: 10%;
+        padding-left: 15%;
+    }
+    .mail h2 {
+        text-align: left;
+        padding-top: 15%;
+        padding-right: 30%;
+    }
+    .mail img {
+        position: absolute;
+        margin-top: 25%;
+        padding-right: 20%;
+    }
+    .fb h2 {
+        text-align: left;
+        padding-top: 8%;
+        padding-right: 52%;
+    }
+    .fb img {
+        position: absolute;
+        margin-top: -8%;
+        padding-left: 15%;
+    }
+    .telpon h2 {
+        text-align: left;
+        padding-top: 15%;
+        padding-right: 30%;
+    }
+    .telpon img {
+        position: absolute;
+        margin-top: 7%;
+        padding-right: 15%;
+    }
+
+}

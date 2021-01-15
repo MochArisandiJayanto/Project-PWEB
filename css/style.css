@@ -96,110 +96,6 @@ a {
 section {
 	padding:20px 0;
 }
-.satu {
-    background-color: #A0604C;
-    opacity: 83%;
-    margin-bottom: 100px;
-}
-.satu h3 {
-    position: absolute;
-    line-height: 57px;
-    color: #000000;
-    left: 600px;
-    font-weight: bold;
-    font-size: 28px;
-    transition: 0.3s;
-}
-.satu h3:hover {
-    color: cyan;
-}
-.satu h3::after {
-	content: '';
-	display: block;
-    position: absolute;
-	bottom: -1px;
-	width:900px;
-	height:4px;
-    background-color:red;
-	left: calc(50% - 475px);
-}
-.satu p {
-    position: absolute;
-    font-size: 26px;
-    color: #FFFBFB;
-    left: 580px;
-    line-height: 43px;
-    margin-top: 150px;
-    transition: 00.3s;
-}
-.satu p:hover {
-    color: cyan;
-}
-.satu img {
-    height: 323px;
-    width: 505px;
-    left: -2038px;
-    top: 1163px;
-    border-radius: 0px;
-    transition: 0.3s;
-}
-.satu a:hover img {
-    transform: scale(1.1,1.1);
-    transition: 0.3s;
-}
-.dua {
-    background-color: rgba(160, 96, 76, 0.53);
-    opacity: 83%;
-    margin-bottom: 10px;
-    margin-top: -70px;
-}
-.dua h3 {
-    position: absolute;
-    line-height: 57px;
-    color: #000000;
-    left: 50%;
-    font-weight: bold;
-    font-size: 28px;
-    transition: 0.3s;
-}
-.dua h3:hover {
-    color: cyan;
-}
-.dua h3::after {
-	content: '';
-	display: block;
-    position: absolute;
-	bottom: -1px;
-	width:100%;
-	height:4px;
-    background-color:red;
-	left: calc(50% - 245px);
-}
-.dua p {
-    position: absolute;
-    font-size: 26px;
-    color: #FFFBFB;
-    left: 580px;
-    line-height: 43px;
-    margin-top: 100px;
-    transition: 00.3s;
-}
-.dua p:hover {
-    color: cyan;
-}
-.dua img {
-    height: 323px;
-    width: 505px;
-    left: -2038px;
-    top: 1163px;
-    border-radius: 0px;
-    transition: 0.3s;
-    transform: rotate(-180deg);
-}
-.dua a:hover img {
-    transform: scale(1.1,1.1) rotate(-180deg);
-    transition: 0.3s;
-}
 footer {
 	background-color: #333;
 	padding: 20px;
@@ -207,6 +103,113 @@ footer {
 }
 footer small {
 	color: #fff;
+}
+
+.container-section{
+    background-color: #A0604C;
+    border: 1px solid black;    
+    margin-bottom: 30px;
+
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 35px;
+}
+
+.row .col{
+    padding: 10px;
+
+}
+.row .col img{
+    height: 323px;
+    border-radius: 0px;
+    transition: 0.3s;   
+}
+.row .col a:hover img {
+    transform: scale(1.1,1.1);
+    transition: 0.3s;
+}
+.row .col.left{
+    flex: 1.2;
+}
+.row .col.right{
+    flex: 2;
+}
+.row .col.right h3{
+    line-height: 57px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 28px;
+    transition: 0.3s;
+}
+.row .col.right p{
+    font-size: 26px;
+    color: #FFFBFB;
+    line-height: 43px;
+    margin-top: 30px;
+    transition: 00.3s;
+}   
+.row .col.right p:hover,
+.row .col.right h3:hover{
+    color: cyan;
+}
+
+.batas{
+    background-color: red;
+    width:100%;
+	height:4px; 
+}
+
+@media (max-width: 769px){
+    .container-section .row{
+        align-items: center;    
+    }
+    .row .col.right h3{
+        line-height: 47px;
+        color: #000000;
+        font-weight: bold;
+        font-size: 23px;
+        transition: 0.3s;
+    }
+    .row .col.right p{
+        font-size: 15px;
+        color: #FFFBFB;
+        line-height: 25px;
+        margin-top: 30px;
+        transition: 00.3s;
+    }
+    .row .col img{
+        height: 200px;   
+        border-radius: 0px;
+        transition: 0.3s;   
+    }
+}
+@media (max-width: 426px){
+    .container-section .row .col{
+        padding: 0;
+    
+    }
+    .container-section .row{
+        flex-direction: column;  
+        justify-content: center;
+    }
+    .row .col.right h3{
+        line-height: 30px;
+        font-size: 19px;
+    }
+    .row .col.right p{
+        font-size: 13px;
+        color: #FFFBFB;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    .row .col img{
+        height: 200px;
+        width: 300px;
+        border-radius: 0px;
+        transition: 0.3s;   
+    }
 }
 
 @media (max-width: 720px){
@@ -250,62 +253,8 @@ footer small {
     .tulisan p{
         font-size: 15px;
     }
-    .satu {
-        margin-top: 10px;
-    }
-    .satu img {
-        height: 40%;
-        width: 30%;
-        margin-top: -2%;
-        margin-left: -5%;
-        margin-bottom:5%;
-    }
-    .satu h3 {
-        position: absolute;
-        left: 35%;
-        font-size:40% ;
-        margin-top: 0;
-        line-height: 200%;
-    }
-    .satu h3::after {
-        width: 100%;
-        height:2px;
-        left: -1%;
-    }
-    .satu p {
-        position: absolute;
-        left: 35%;
-        font-size: 30%;
-        margin-top: 8%;
-        line-height: 300%;
-    }
-    .dua img {
-        height: 40%;
-        width: 30%;
-        margin-top: -2%;
-        margin-left: -5%;
-        margin-bottom:5%;
-    }
-    .dua h3 {
-        position: absolute;
-        left: 50%;
-        font-size:40% ;
-        margin-top: 2px;
-        line-height: 200%;
-    }
-    .dua h3::after {
-        width: 100%;
-        height:2px;
-        left: 0%;
-    }
-    .dua p {
-        position: absolute;
-        left: 35%;
-        font-size: 30%;
-        margin-top: 8%;
-        line-height: 300%;
-    }
 }
+
 
 @media (min-width: 720px) and (max-width: 992px){
     header {
@@ -348,60 +297,5 @@ footer small {
     }
     .tulisan p{
         font-size: 15px;
-    }
-    .satu {
-        margin-top: 10px;
-    }
-    .satu img {
-        height: 50%;
-        width: 40%;
-        margin-top: -2%;
-        margin-left: -5%;
-        margin-bottom:5%;
-    }
-    .satu h3 {
-        position: absolute;
-        left: 40%;
-        font-size:70% ;
-        margin-top: 0;
-        line-height: 300%;
-    }
-    .satu h3::after {
-        width: 100%;
-        height:2px;
-        left: -1%;
-    }
-    .satu p {
-        position: absolute;
-        left: 40%;
-        font-size: 60%;
-        margin-top: 10%;
-        line-height: 300%;
-    }
-    .dua img {
-        height: 50%;
-        width: 40%;
-        margin-top: -2%;
-        margin-left: -5%;
-        margin-bottom:5%;
-    }
-    .dua h3 {
-        position: absolute;
-        left: 50%;
-        font-size:70% ;
-        margin-top: 2px;
-        line-height: 200%;
-    }
-    .dua h3::after {
-        width: 100%;
-        height:2px;
-        left: 0%;
-    }
-    .dua p {
-        position: absolute;
-        left: 40%;
-        font-size: 60%;
-        margin-top: 8%;
-        line-height: 300%;
     }
 }
