@@ -159,6 +159,9 @@ footer small {
         transform: translateX(0);
         opacity: 1;
     }
+    footer {
+        margin-top: 180px;
+    }
 }
 @media screen and (max-width: 769px){
     nav .logo img{
@@ -213,8 +216,5 @@ footer small {
     .row .col p{
         font-size: 12px;
         margin: 12px 0;
-    }
-    footer{
-        margin-top: 70px;
     }
 }
