@@ -8,6 +8,10 @@ Repository Project Perancangan Website
 =================
 https://hidroweb.000webhostapp.com/
 
+**Link Mockup**
+=================
+https://github.com/agung-bit/Tugas-P.-Web
+
 **Kontributor:**
 =============
 * [Moch Arisandi Jayanto](https://github.com/MochArisandiJayanto) (192410103064)
